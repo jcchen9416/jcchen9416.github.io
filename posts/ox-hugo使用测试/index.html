@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>jc blog  | ox-hugo使用测试</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.54.0" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.955516233bcafa4d2a1c13cea63c7b50.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="ox-hugo使用测试" />
+<meta property="og:description" content="使用 多文件关联 如果是同个文件的关联,直接用 org-mode 内部的链接方式即可. 但如果是跨 post 链接,那就不行了. 必须按照生成的URL来进行链接. 如下: [[/post/org-file-header][link description]] 图片" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://jcchen9416.github.io/posts/ox-hugo%E4%BD%BF%E7%94%A8%E6%B5%8B%E8%AF%95/" />
+<meta property="article:published_time" content="2019-02-09T20:17:00&#43;08:00"/>
+<meta property="article:modified_time" content="2019-02-09T20:17:00&#43;08:00"/>
+
+<meta itemprop="name" content="ox-hugo使用测试">
+<meta itemprop="description" content="使用 多文件关联 如果是同个文件的关联,直接用 org-mode 内部的链接方式即可. 但如果是跨 post 链接,那就不行了. 必须按照生成的URL来进行链接. 如下: [[/post/org-file-header][link description]] 图片">
+
+
+<meta itemprop="datePublished" content="2019-02-09T20:17:00&#43;08:00" />
+<meta itemprop="dateModified" content="2019-02-09T20:17:00&#43;08:00" />
+<meta itemprop="wordCount" content="899">
+
+
+
+<meta itemprop="keywords" content="hugo,ox-hugo," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ox-hugo使用测试"/>
+<meta name="twitter:description" content="使用 多文件关联 如果是同个文件的关联,直接用 org-mode 内部的链接方式即可. 但如果是跨 post 链接,那就不行了. 必须按照生成的URL来进行链接. 如下: [[/post/org-file-header][link description]] 图片"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://jcchen9416.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      jc blog
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">ox-hugo使用测试</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-02-09T20:17:00&#43;08:00">February 9, 2019</time>      
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<h2 id="使用">使用</h2>
+
+<h3 id="多文件关联">多文件关联</h3>
+
+<p>如果是同个文件的关联,直接用 <code>org-mode</code> 内部的链接方式即可.
+但如果是跨 <code>post</code> 链接,那就不行了. 必须按照生成的URL来进行链接.</p>
+
+<p>如下:</p>
+
+<pre><code class="language-org">[[/post/org-file-header][link description]]
+</code></pre>
+
+<h3 id="图片-表格-代码块">图片,表格,代码块</h3>
+
+<p><a id="org25bf290"></a></p>
+
+<figure>
+    <img src="/images/pikachu.png"
+         alt="Figure 1: inline image, don&amp;rsquo;t click"/> <figcaption>
+            <p>Figure 1: inline image, don&rsquo;t click</p>
+        </figcaption>
+</figure>
+
+
+<p>A link to view the <a href="/images/pikachu.png">image</a>.</p>
+
+<p>下面是一个表格的例子:</p>
+
+<div class="ox-hugo-table collapse striped--moon-gray">
+<div></div>
+
+<div class="table-caption">
+  <span class="table-number">Table 1</span>:
+  demo table
+</div>
+
+<table>
+<thead>
+<tr>
+<th>Hugo front matter</th>
+<th>org</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>title = &ldquo;foo&rdquo;</td>
+<td>* foo</td>
+</tr>
+
+<tr>
+<td>date = 2019-01-01</td>
+<td>:EXPORT_DATE: 2019-01-01</td>
+</tr>
+
+<tr>
+<td>lastmod = <currentdate></td>
+<td>#+hugo_auto_set_lastmod: t</td>
+</tr>
+</tbody>
+</table>
+
+<p></div></p>
+
+<p>一段python的代码例子</p>
+
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">1
+</span><span style="display:block;width:100%;background-color:#3c3d38"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">2
+</span></span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">10</span>):
+<span style="display:block;width:100%;background-color:#3c3d38">    <span style="color:#66d9ef">print</span>(i)</span></code></pre></td></tr></table>
+</div>
+</div>
+
+<p>下面这段代码会把输出一起打印出来:</p>
+
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">str <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;hello-world&#34;</span>
+<span style="color:#66d9ef">print</span>(str[<span style="color:#ae81ff">1</span>:<span style="color:#ae81ff">5</span>])</code></pre></td></tr></table>
+</div>
+</div>
+
+<pre><code class="language-text">ello
+</code></pre>
+
+<p>下面是一段公式:</p>
+
+<p>If \(a^2=b\) and \( b = 2 \), then the solution must be either
+\[ a=+\sqrt{2} \] or \[ a=-\sqrt{2} \]</p>
+
+<h3 id="toc">TOC</h3>
+
+<p>hugo会自动带toc的功能. 这个要看主题(theme)的支持情况.
+正常的话,hugo会自动从markdown中提取出标题来做为toc.如果主题支持的话,那这个toc会自动显示出来.
+比如,目前用的主题 <a href="https://themes.gohugo.io/gohugo-theme-ananke/">ananke</a>,使用时,必须在front matter中显示指定 <code>toc: true</code> 才能打开.
+因此,我们在 <code>org-mode</code> 中只需要加一个自定义的变量,把这个front matter给设上即可. 如下:</p>
+
+<pre><code class="language-org">:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :toc true
+</code></pre>
+
+<p>正因为hugo自带toc功能,因此,ox-hugo默认是没有启用org-mode的toc导出功能.</p>
+
+<p>hugo的toc功能有什么不足,就是目前是没法指定toc的层级,它会全部展示出来.</p>
+
+<p>如果你想使用org-mode的toc功能,则需要设置:</p>
+
+<ul>
+<li>单文件,一个subtree对应一个post:  <code>:EXPORT_OPTIONS: toc:t</code></li>
+<li>单文件,一个文件对应一个post:     <code>#+toc: headlines 2</code></li>
+</ul>
+
+<p>org-mode的toc功能就可以设置层级.它会生成一段html到文件的开头中去.
+它会有一个问题就是,hugo的内置变量 <code>.Summary</code> 取到的值,会把这个org-mode生成的toc取到.</p>
+
+<p>所以,要做的好的话,需要在theme里面对这个做一个额外的处理.
+另外,orgmode生成的toc的样式,通常theme也不会有样式支持,毕竟不是hugo内置的功能,需要自己写样式美化一下.</p>
+
+<h3 id="标签-分类">标签,分类</h3>
+
+<p>标签就是 <code>org-mode</code> 正常的打tag即可.另外, <code>org-mode</code> 的tag不能用连接线. 因此, <code>ox-hugo</code> 会将
+标签名字中的:</p>
+
+<ul>
+<li>一个下划线 转成 连接线. 如 abc_def ==&gt; abc-def</li>
+<li>两个下划线 转成 空格.  如 abc__def ==&gt; abc def</li>
+<li>三个下划线 转成 一个正常的下划线. 如 abc___def ==&gt; abc_def</li>
+</ul>
+
+<p>如果,不想要这种转义,可以设置: <code>org-hugo-prefer-hyphen-in-tags</code> 为 <code>nil</code>.</p>
+
+<p>分类:
+tag的名字,如果以&rdquo;@&ldquo;开头,就认为是分类.</p>
+
+<h3 id="自定义css">自定义css</h3>
+
+<h3 id="自定义html文件">自定义html文件</h3>
+
+<h3 id="override-theme-to-make-mathjax-support"><span class="org-todo todo TODO">TODO</span> override theme to make <code>mathjax</code> support</h3>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/hugo" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">hugo</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/ox-hugo" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">ox-hugo</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">What's in this Posts</p>
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#使用">使用</a>
+<ul>
+<li><a href="#多文件关联">多文件关联</a></li>
+<li><a href="#图片-表格-代码块">图片,表格,代码块</a></li>
+<li><a href="#toc">TOC</a></li>
+<li><a href="#标签-分类">标签,分类</a></li>
+<li><a href="#自定义css">自定义css</a></li>
+<li><a href="#自定义html文件">自定义html文件</a></li>
+<li><a href="#override-theme-to-make-mathjax-support"><span class="org-todo todo TODO">TODO</span> override theme to make <code>mathjax</code> support</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/ox-hugo/">ox-hugo</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/my-first-hugo-post/">my first hugo post</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://jcchen9416.github.io/" >
+    &copy; 2019 jc blog
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
