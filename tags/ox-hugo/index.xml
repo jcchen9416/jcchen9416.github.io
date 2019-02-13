@@ -23,10 +23,10 @@
     <item>
       <title>ox-hugo</title>
       <link>http://jcchen9416.github.io/posts/ox-hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Feb 2019 13:00:00 +0800</pubDate>
       
       <guid>http://jcchen9416.github.io/posts/ox-hugo/</guid>
-      <description>Table of Contents Features org capture setup auto export ox-hugo使用测试 Features 用 org-mode 完整写完后,再 export 成 hugo markdown. org capture setup auto export 主要是开启 (org-hugo-auto-export-mode). 然后保存的时候会自动export. 可以在文件上加本</description>
+      <description>Table of Contents Features org capture setup auto export ox-hugo使用测试 Features 用 org-mode 完整写完后,再 export 成 hugo markdown. org capture setup TO BE IMPLEMENT auto export 主要是开启 (org-hugo-auto-export-mode). 然后保存的时候会自动export. 可以在文件</description>
     </item>
     
   </channel>
