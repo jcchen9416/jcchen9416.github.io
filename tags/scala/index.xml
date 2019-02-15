@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scala on jc blog</title>
+    <link>http://jcchen9416.github.io/tags/scala/</link>
+    <description>Recent content in Scala on jc blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 15 Feb 2019 15:14:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://jcchen9416.github.io/tags/scala/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>scala pattern match on Array and List</title>
+      <link>http://jcchen9416.github.io/posts/scala-pattern-match-on-array-and-list/</link>
+      <pubDate>Fri, 15 Feb 2019 15:14:00 +0800</pubDate>
+      
+      <guid>http://jcchen9416.github.io/posts/scala-pattern-match-on-array-and-list/</guid>
+      <description>Pattern match on Array.
+val arr = Array(1,2,3,4,5) arr match { case Array() =&amp;gt; println(&amp;quot;empty array&amp;quot;) case Array(head, _*) =&amp;gt; println(head) } arr match { case Array() =&amp;gt; println(&amp;quot;empty array&amp;quot;) case Array(_, tail @ _*) =&amp;gt; println(tail.mkString(&amp;quot;,&amp;quot;)) }  Pattern match on List.
+val list = List(1,2,3,4,5) list match { case Nil =&amp;gt; println(&amp;quot;empty list&amp;quot;) case head::tail =&amp;gt; println(s&amp;quot;head:$head, tail:${tail.mkString(&amp;quot;,&amp;quot;)}&amp;quot;) }  </description>
+    </item>
+    
+  </channel>
+</rss>

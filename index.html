@@ -9,7 +9,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.54.0" />
+    <meta name="generator" content="Hugo 0.40.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -36,7 +36,18 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://jcchen9416.github.io/" />
 
-<meta property="og:updated_time" content="2019-02-09T20:17:00&#43;08:00"/>
+
+
+<meta property="og:updated_time" content="2019-02-15T15:14:00&#43;08:00"/>
+
+
+
+
+
+
+
+
+
 
 <meta itemprop="name" content="jc blog">
 <meta itemprop="description" content="">
@@ -122,6 +133,32 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/scala-pattern-match-on-array-and-list/" class="color-inherit dim link">
+            scala pattern match on Array and List
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          Pattern match on Array.
+val arr = Array(1,2,3,4,5) arr match { case Array() =&gt; println(&quot;empty array&quot;) case Array(head, _*) =&gt; println(head) } arr match { case Array() =&gt; println(&quot;empty array&quot;) case Array(_, tail @ _*) =&gt; println(tail.mkString(&quot;,&quot;)) }  Pattern match on List.
+val list = List(1,2,3,4,5) list match { case Nil =&gt; println(&quot;empty list&quot;) case head::tail =&gt; println(s&quot;head:$head, tail:${tail.mkString(&quot;,&quot;)}&quot;) }  
+        </div>
+          <a href="/posts/scala-pattern-match-on-array-and-list/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/posts/ox-hugo%E4%BD%BF%E7%94%A8%E6%B5%8B%E8%AF%95/" class="color-inherit dim link">
             ox-hugo使用测试
             </a>
@@ -162,32 +199,25 @@
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/my-first-hugo-post/" class="color-inherit dim link">
-            my first hugo post
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Hello hugo. Will be remove soon! Hugo Features Jekyll -&gt; Hugo 如何在emacs中使用hugo easy-hugo ox-hugo Hugo Features 参考文档: 博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo
-        </div>
-          <a href="/posts/my-first-hugo-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
+      
+      <section class="w-100">
+        <h1 class="f3">More</h1>
+        
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/my-first-hugo-post/" class="link black dim">
+              my first hugo post
+            </a>
+          </h2>
+        
+
+        
+        
+          <a href="/posts/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Posts</a>
+        
+        </section>
       
 
       </div>
