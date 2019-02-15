@@ -17,9 +17,9 @@
       <pubDate>Fri, 15 Feb 2019 15:14:00 +0800</pubDate>
       
       <guid>http://jcchen9416.github.io/posts/scala-pattern-match-on-array-and-list/</guid>
-      <description>Pattern match on Array.
-val arr = Array(1,2,3,4,5) arr match { case Array() =&amp;gt; println(&amp;quot;empty array&amp;quot;) case Array(head, _*) =&amp;gt; println(head) } arr match { case Array() =&amp;gt; println(&amp;quot;empty array&amp;quot;) case Array(_, tail @ _*) =&amp;gt; println(tail.mkString(&amp;quot;,&amp;quot;)) }  Pattern match on List.
-val list = List(1,2,3,4,5) list match { case Nil =&amp;gt; println(&amp;quot;empty list&amp;quot;) case head::tail =&amp;gt; println(s&amp;quot;head:$head, tail:${tail.mkString(&amp;quot;,&amp;quot;)}&amp;quot;) }  </description>
+      <description>&lt;p&gt;The following shows you how to use scala pattern match on Array and List.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
