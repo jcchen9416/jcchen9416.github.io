@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>jc blog  | my first hugo post</title>
+    <title>jc blog  | scala pattern match on Array and List</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
@@ -28,27 +28,27 @@
 
     
 
-    <meta property="og:title" content="my first hugo post" />
-<meta property="og:description" content="Hello hugo. Will be remove soon! Hugo Features Jekyll -&gt; Hugo 如何在emacs中使用hugo easy-hugo ox-hugo Hugo Features 参考文档: 博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo" />
+    <meta property="og:title" content="scala pattern match on Array and List" />
+<meta property="og:description" content="The following shows you how to use scala pattern match on Array and List." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://jcchen9416.github.io/posts/my-first-hugo-post/" />
-<meta property="article:published_time" content="2019-02-08T12:00:00&#43;08:00"/>
-<meta property="article:modified_time" content="2019-02-08T12:00:00&#43;08:00"/>
+<meta property="og:url" content="http://jcchen9416.github.io/posts/scala-pattern-match-on-array-and-list/" />
+<meta property="article:published_time" content="2019-02-15T15:14:00&#43;08:00"/>
+<meta property="article:modified_time" content="2019-02-15T15:14:00&#43;08:00"/>
 
-<meta itemprop="name" content="my first hugo post">
-<meta itemprop="description" content="Hello hugo. Will be remove soon! Hugo Features Jekyll -&gt; Hugo 如何在emacs中使用hugo easy-hugo ox-hugo Hugo Features 参考文档: 博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo">
-
-
-<meta itemprop="datePublished" content="2019-02-08T12:00:00&#43;08:00" />
-<meta itemprop="dateModified" content="2019-02-08T12:00:00&#43;08:00" />
-<meta itemprop="wordCount" content="51">
+<meta itemprop="name" content="scala pattern match on Array and List">
+<meta itemprop="description" content="The following shows you how to use scala pattern match on Array and List.">
 
 
+<meta itemprop="datePublished" content="2019-02-15T15:14:00&#43;08:00" />
+<meta itemprop="dateModified" content="2019-02-15T15:14:00&#43;08:00" />
+<meta itemprop="wordCount" content="74">
 
-<meta itemprop="keywords" content="hugo," />
+
+
+<meta itemprop="keywords" content="scala," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="my first hugo post"/>
-<meta name="twitter:description" content="Hello hugo. Will be remove soon! Hugo Features Jekyll -&gt; Hugo 如何在emacs中使用hugo easy-hugo ox-hugo Hugo Features 参考文档: 博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo"/>
+<meta name="twitter:title" content="scala pattern match on Array and List"/>
+<meta name="twitter:description" content="The following shows you how to use scala pattern match on Array and List."/>
 
       
 <script type="application/javascript">
@@ -111,40 +111,40 @@ if (!doNotTrack) {
           
         POSTS
       </p>
-      <h1 class="f1 athelas mb1">my first hugo post</h1>
+      <h1 class="f1 athelas mb1">scala pattern match on Array and List</h1>
       
-      <time class="f6 mv4 dib tracked" datetime="2019-02-08T12:00:00&#43;08:00">February 8, 2019</time>      
+      <time class="f6 mv4 dib tracked" datetime="2019-02-15T15:14:00&#43;08:00">February 15, 2019</time>      
       
       
     </header>
 
-    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>The following shows you how to use scala pattern match on Array and List.</p>
 
-<p>Hello hugo.</p>
+<p>Pattern match on Array.</p>
 
-<p>Will be remove soon!</p>
+<pre><code class="language-scala">val arr = Array(1,2,3,4,5)
+arr match {
+  case Array() =&gt; println(&quot;empty array&quot;)
+  case Array(head, _*) =&gt; println(head)
+}
 
-<h2 id="hugo-features">Hugo Features</h2>
+arr match {
+  case Array() =&gt; println(&quot;empty array&quot;)
+  case Array(_, tail @ _*) =&gt; println(tail.mkString(&quot;,&quot;))
+}
+</code></pre>
 
-<h2 id="jekyll-hugo">Jekyll -&gt; Hugo</h2>
+<p>Pattern match on List.</p>
 
-<h2 id="如何在emacs中使用hugo">如何在emacs中使用hugo</h2>
-
-<ul>
-<li>easy-hugo</li>
-<li><a href="/posts/ox-hugo">ox-hugo</a></li>
-<li><a href="#hugo-features">Hugo Features</a></li>
-</ul>
-
-<p>参考文档:</p>
-
-<ul>
-<li><a href="https://www.xianmin.org/post/ox-hugo/">博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo</a></li>
-</ul>
-<ul class="pa0">
+<pre><code class="language-scala">val list = List(1,2,3,4,5)
+list match {
+  case Nil =&gt; println(&quot;empty list&quot;)
+  case head::tail =&gt; println(s&quot;head:$head, tail:${tail.mkString(&quot;,&quot;)}&quot;)
+}
+</code></pre><ul class="pa0">
   
    <li class="list">
-     <a href="/tags/hugo" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">hugo</a>
+     <a href="/tags/scala" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">scala</a>
    </li>
   
 </ul>
