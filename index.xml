@@ -17,7 +17,13 @@
       <pubDate>Fri, 15 Feb 2019 15:14:00 +0800</pubDate>
       
       <guid>http://jcchen9416.github.io/posts/scala-pattern-match-on-array-and-list/</guid>
+<<<<<<< HEAD
       <description>&lt;p&gt;The following shows you how to use scala pattern match on Array and List.&lt;/p&gt;</description>
+=======
+      <description>&lt;p&gt;The following shows you how to use scala pattern match on Array and List.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+>>>>>>> b04b0cb9a1fa73f40c88f33c6f32470db07747bf
     </item>
     
     <item>
