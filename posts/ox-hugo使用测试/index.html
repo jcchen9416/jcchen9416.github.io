@@ -55,7 +55,7 @@
 
 <meta itemprop="datePublished" content="2019-02-09T20:17:00&#43;08:00" />
 <meta itemprop="dateModified" content="2019-02-09T20:17:00&#43;08:00" />
-<meta itemprop="wordCount" content="892">
+<meta itemprop="wordCount" content="919">
 
 
 
@@ -144,7 +144,7 @@ ga('send', 'pageview');
 
 <h3 id="图片-表格-代码块">图片,表格,代码块</h3>
 
-<p><a id="org25bf290"></a></p>
+<p><a id="orgb03384a"></a></p>
 
 
 <figure>
@@ -230,9 +230,6 @@ ga('send', 'pageview');
 </div>
 </div>
 
-<pre><code class="language-text">ello
-</code></pre>
-
 <p>下面是一段公式:</p>
 
 <p>If \(a^2=b\) and \( b = 2 \), then the solution must be either
@@ -246,6 +243,12 @@ ga('send', 'pageview');
 因此,我们在 <code>org-mode</code> 中只需要加一个自定义的变量,把这个front matter给设上即可. 如下:</p>
 
 <pre><code class="language-org">:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :toc true
+</code></pre>
+
+<p>如果是单文件导出的话,就用 keyword 方式代替 properties 方式.</p>
+
+<pre><code class="language-org">#+hugo_custom_front_matter: :key1 value1
+#+hugo_custom_front_matter: :key2 value2
 </code></pre>
 
 <p>正因为hugo自带toc功能,因此,ox-hugo默认是没有启用org-mode的toc导出功能.</p>
