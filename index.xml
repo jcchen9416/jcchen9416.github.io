@@ -6,10 +6,37 @@
     <description>Recent content on jc blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 15 Feb 2019 15:14:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="http://jcchen9416.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Encrypt org files</title>
+      <link>http://jcchen9416.github.io/posts/encrypt-org-files/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0800</pubDate>
+      
+      <guid>http://jcchen9416.github.io/posts/encrypt-org-files/</guid>
+      <description>使用Gpg对整个文件加密 概念 GPG,OpenGPG,GnuPG Gpg(Pretty Good Privacy)是一个数据加密和数字签名的程序. 由于其广泛应用,后来形成一个开放的标准 OpenGPG. GnuPG是实现了</description>
+    </item>
+    
+    <item>
+      <title>POKEMON</title>
+      <link>http://jcchen9416.github.io/custom/pokemon/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0800</pubDate>
+      
+      <guid>http://jcchen9416.github.io/custom/pokemon/</guid>
+      <description>PM属性 一般 格斗 飞行 毒 地面 岩石 虫 幽灵 钢 火 水 草 电 超能力 冰 龙 恶 妖精 忽略属性 一般 格斗 飞行 毒 地面 岩石 虫 幽灵 钢 火 水 草 电 超能力 冰 龙 恶 妖精 topN Submit $(function() { $(&#34;#analysis&#34;).click(function() { var m</description>
+    </item>
+    
+    <item>
+      <title>gpg使用参考</title>
+      <link>http://jcchen9416.github.io/posts/gpg/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0800</pubDate>
+      
+      <guid>http://jcchen9416.github.io/posts/gpg/</guid>
+      <description>PGP (Pretty Good Privacy) 是由 Phil Zimmermann （之所以提这个名字是因为这位仁兄背后有一段故事，有兴趣可以找找他的八卦）于 1991 开发的一个用于数据加密和数字签名的程序，由于被广</description>
+    </item>
     
     <item>
       <title>scala pattern match on Array and List</title>

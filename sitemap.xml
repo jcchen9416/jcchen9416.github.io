@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://jcchen9416.github.io/posts/encrypt-org-files/</loc>
+    <lastmod>2019-02-28T15:50:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jcchen9416.github.io/custom/pokemon/</loc>
+    <lastmod>2019-02-28T15:50:43+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jcchen9416.github.io/posts/gpg/</loc>
+    <lastmod>2019-02-28T15:50:43+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://jcchen9416.github.io/posts/scala-pattern-match-on-array-and-list/</loc>
     <lastmod>2019-02-15T15:14:00+08:00</lastmod>
   </url>
@@ -28,8 +43,32 @@
   </url>
   
   <url>
+    <loc>http://jcchen9416.github.io/custom/</loc>
+    <lastmod>2019-02-28T15:50:43+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://jcchen9416.github.io/tags/emacs/</loc>
+    <lastmod>2019-02-28T15:50:39+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://jcchen9416.github.io/tags/gpg/</loc>
+    <lastmod>2019-02-28T15:50:39+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://jcchen9416.github.io/tags/hugo/</loc>
     <lastmod>2019-02-09T20:17:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://jcchen9416.github.io/tags/org-mode/</loc>
+    <lastmod>2019-02-28T15:50:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -40,8 +79,14 @@
   </url>
   
   <url>
+    <loc>http://jcchen9416.github.io/tags/pgp/</loc>
+    <lastmod>2019-02-28T15:50:43+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://jcchen9416.github.io/posts/</loc>
-    <lastmod>2019-02-15T15:14:00+08:00</lastmod>
+    <lastmod>2019-02-28T15:50:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -53,13 +98,13 @@
   
   <url>
     <loc>http://jcchen9416.github.io/tags/</loc>
-    <lastmod>2019-02-09T20:17:00+08:00</lastmod>
+    <lastmod>2019-02-28T15:50:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://jcchen9416.github.io/</loc>
-    <lastmod>2019-02-15T15:14:00+08:00</lastmod>
+    <lastmod>2019-02-28T15:50:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   

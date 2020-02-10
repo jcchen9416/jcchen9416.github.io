@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emacs on jc blog</title>
+    <link>http://jcchen9416.github.io/tags/emacs/</link>
+    <description>Recent content in Emacs on jc blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://jcchen9416.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Encrypt org files</title>
+      <link>http://jcchen9416.github.io/posts/encrypt-org-files/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0800</pubDate>
+      
+      <guid>http://jcchen9416.github.io/posts/encrypt-org-files/</guid>
+      <description>使用Gpg对整个文件加密 概念 GPG,OpenGPG,GnuPG Gpg(Pretty Good Privacy)是一个数据加密和数字签名的程序. 由于其广泛应用,后来形成一个开放的标准 OpenGPG. GnuPG是实现了</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,10 +6,28 @@
     <description>Recent content in Tags on jc blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 09 Feb 2019 20:17:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="http://jcchen9416.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Emacs</title>
+      <link>http://jcchen9416.github.io/tags/emacs/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0800</pubDate>
+      
+      <guid>http://jcchen9416.github.io/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gpg</title>
+      <link>http://jcchen9416.github.io/tags/gpg/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0800</pubDate>
+      
+      <guid>http://jcchen9416.github.io/tags/gpg/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hugo</title>
@@ -21,11 +39,29 @@
     </item>
     
     <item>
+      <title>Org Mode</title>
+      <link>http://jcchen9416.github.io/tags/org-mode/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0800</pubDate>
+      
+      <guid>http://jcchen9416.github.io/tags/org-mode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ox Hugo</title>
       <link>http://jcchen9416.github.io/tags/ox-hugo/</link>
       <pubDate>Sat, 09 Feb 2019 20:17:00 +0800</pubDate>
       
       <guid>http://jcchen9416.github.io/tags/ox-hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pgp</title>
+      <link>http://jcchen9416.github.io/tags/pgp/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0800</pubDate>
+      
+      <guid>http://jcchen9416.github.io/tags/pgp/</guid>
       <description></description>
     </item>
     
